@@ -1,0 +1,14 @@
+ rails4     faye简单例子
+ 步骤：
+ rails new mchatter
+ source 'http://ruby.taobao.org'
+  bundle  install
+
+  rails g scaffold  message content:string
+关键gemfile添加下面gem
+gem 'thin'
+gem 'faye'
+gem 'faye-websocket'
+安装gem
+gem install thin
+参考http://blog.csdn.net/hexudong08/article/details/6957574
