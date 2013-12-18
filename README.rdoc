@@ -11,4 +11,6 @@ gem 'faye'
 gem 'faye-websocket'
 安装gem
 gem install thin
+启动faye监听
+rackup faye.ru -s thin -E production
 参考http://blog.csdn.net/hexudong08/article/details/6957574
